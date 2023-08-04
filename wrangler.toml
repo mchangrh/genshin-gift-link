@@ -1,0 +1,5 @@
+name = "genshin-gift"
+account_id = "d5ccf1d783709bbdc23fc29786f38736"
+workers_dev = true
+main = "src/index.js"
+compatibility_date = "2023-08-04"
