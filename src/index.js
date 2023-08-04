@@ -46,7 +46,7 @@ const handleInteraction = async ({ request, wait }) => {
         return jsonResponse({
           type: 4,
           data: {
-            content: `https://genshin.hoyoverse.com/en/gift?code=${code}`
+            content: `<https://genshin.hoyoverse.com/en/gift?code=${code}>`
           }
         });
       } else { // command not found, 404
